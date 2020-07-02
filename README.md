@@ -40,8 +40,16 @@ under the License.
 ## 定制了什么
 
 * 汉化
-* 时间周期定制
-* 
+* 时间周期定制 -- 针对Oracle 数据源
+    
+    * 数据粒度周 ，切换为固定每周一 进行分组，方便各个数据用户按照自然周分析，也方便用户取数写周报
+    * 默认是 ww 切换为 iw
+
+|关键字|含义|英文|
+|---|---|---|
+|ww|按年度1月1日的第一天为每周第一天|Same day of the week as the first day of the year|
+|iw|每周一|Same day of the week as the first day of the ISO week, which is Monday|
+|w|按月份1日的第一天作为每周第一天|Same day of the week as the first day of the month|
 
 
 ## Get Help
