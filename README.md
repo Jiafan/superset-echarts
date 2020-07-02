@@ -51,6 +51,11 @@ under the License.
 |iw|每周一|Same day of the week as the first day of the ISO week, which is Monday|
 |w|按月份1日的第一天作为每周第一天|Same day of the week as the first day of the month|
 
+* 数字格式定制
+ 
+    * 新增保留两位小数的数字格式
+    * 增加人命币数字前缀
+
 
 ## Get Help
 
